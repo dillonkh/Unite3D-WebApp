@@ -1,0 +1,151 @@
+.modal-dialog{
+  max-width: 50%;
+}
+/* Modal content */
+.modal-content {
+  background-color: white;
+  margin: auto; /* Auto margin according to the element width */
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; /* Optional. Rounds container corners */
+}
+/* Close button */
+.close {
+ color: #aaaaaa;
+ float: right; /* Positioned to the right of the parent container whichever size it is */
+ font-size: 25px;
+ font-weight: bold;
+}
+.close:hover, 
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image{
+  width:100%;
+  height:550px;
+  object-fit:cover;
+  object-position:50% 50%;
+}
+.modal-general-header{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 1rem;
+}
+.modal-general-details{
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #dee2e6;
+}
+.title{
+  font-size: 32px;
+}
+.budget{
+  font-size: 32px;
+  color: #9d19d5;
+  float: right;
+  font-weight: 700;
+}
+.jobDetails{
+  font-size: 24px;
+}
+.hire-button{
+  width: 30%;
+}
+.detailGrid{
+  display: grid;
+  grid-template-columns:  100px auto;
+  grid-template-rows:  25px 25px 25px;
+  justify-content: flex-start;
+  margin-left: 3rem;
+}
+.filament{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.filament-details{
+  padding-left: 1rem;
+  grid-column-start: 2;
+  grid-row-start:1;
+}
+.fill-model{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.fill-details{
+  padding-left: 1rem;
+  grid-column-start: 2;
+  grid-row-start:2;
+}
+.dimension{
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+.dim-details{
+  padding-left: 1rem;
+  grid-column-start: 2;
+  grid-row-start:3;
+}
+.detailsSection{
+  margin-left: 3rem;
+}
+
+.modal-general-section{
+  display: flex;
+}
+.custom-modal-jsx-section{
+  width: 100%;
+}
+.modal-general-left-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.modal-general-next-buttons{
+  font-size: 39px;
+  color: #9d19d5;
+  margin: 1rem;
+}
+.bid-form{
+ margin: 0 auto;
+}
+.make-offer-text{
+  font-size: 20px;
+}
+.modal-general-right{
+  position: relative;
+}
+
+.subtitle{
+  font-size: 18px;
+}
+
+.close-button-wrapper{
+  width: 45%;
+  margin: auto;
+}
+
+.complete-button-wrapper{
+  width: 45%;
+  margin: auto;
+}
+
+.download-button-wrapper{
+  margin-left: 50px;
+  margin-top: 12px;
+  width: 70%;
+}
+/* ModalMakeBid*/
+
+.form-submit-bid{
+  color: #f8f8f8;
+  padding: .5rem;
+  background-color: #9d19d5;
+  border-radius: 10px;
+  border: none;
+  margin-left: 1rem;
+}
+

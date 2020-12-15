@@ -1,0 +1,7 @@
+.text-area {
+  background-color: rgb(var(--secondary-grey));
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+}

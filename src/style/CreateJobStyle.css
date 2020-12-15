@@ -1,0 +1,32 @@
+.shipping-details-area {
+  background-color: rgb(var(--secondary-grey));
+  border-radius: .3rem;
+}
+.sub-label {
+  text-align: center;
+  color: rgb(var(--primary-grey));
+}
+.width-100 {
+  width: 100%;
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+.horizontal-center {
+  margin-left: 40%;
+}
+.toast-container {
+  position: relative;
+  width: 100%
+}
+.toast {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.progress-bar {
+  background-color: rgb(var(--primary-purple)) !important;
+}

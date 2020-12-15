@@ -1,0 +1,8 @@
+.link {
+    color: rgb(var(--primary-purple));
+}
+
+.link:hover {
+    color: rgb(var(--primary-purple));
+    text-decoration: underline;
+}

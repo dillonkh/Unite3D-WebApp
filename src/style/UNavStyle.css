@@ -1,0 +1,18 @@
+.u-nav {
+    box-shadow: 5px 5px 5px rgba(var(--primary-black), 0.1);
+    background-color: rgba(var(--primary-white), 0.945);
+}
+
+.navbar-nav > a,
+.navbar-nav > button {
+    margin: 0 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(var(--primary-black));
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.welcome-title {
+  font-size: 32px;
+}
+.modeler-vendor-area {
+  background-color: rgb(var(--secondary-grey));
+  border-radius: .3rem;
+}
+
+.material-design-people{
+  align-self: center;
+  width: 800px;
+}

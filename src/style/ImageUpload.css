@@ -1,0 +1,32 @@
+.fill {
+  display: flex;
+  border-radius: .3rem;
+  background-color: rgb(var(--secondary-grey));
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image {
+  border-radius: .3rem;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.big {
+  min-height: 200px;
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+}
+.small {
+  height: 100%;
+  width: 100%;
+  min-height: 113px;
+  max-height: 200px;
+}
+
+.image-icon {
+  color: rgb(var(--primary-black));
+}
